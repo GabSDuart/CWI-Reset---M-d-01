@@ -1,0 +1,52 @@
+//Exercício 01 - aula 5
+
+nome1 = "Jhon"
+nome2 = "Jon"
+mesmoNome = (nome1 == nome2) ? "Têm o mesmo nome" : "Não têm mesmo nome"
+console.log(mesmoNome)
+
+//Exercício 02 - aula 5
+
+maiorDeIdade = 18
+if(maiorDeIdade >= 18)
+{maiorDeIdade = "Adulto"}
+else
+{maiorDeIdade = "Menor"}
+console.log(maiorDeIdade)
+
+//Exercício 03 - aula 5
+
+valorBoleto = 109,90
+valorJuros = (valorBoleto + valorBoleto * 10/100)
+console.log(valorJuros)
+
+//Exercício 04 - aula 5
+
+item1 = 10
+item2 = 20
+item3 = 25
+item4 = 40
+item5 = 55
+valorMedio = (item1 + item2 + item3 + item4 + item5)/5
+console.log(valorMedio)
+
+//Exercício 05 - aula 5
+
+receitaLiquida = 9000.00
+custoProdutos = 3700.00
+lucroBruto = (receitaLiquida - custoProdutos)
+margemBruta = (lucroBruto / receitaLiquida)*100
+console.log("Lucro bruto total foi de: R$" + lucroBruto + ".")
+console.log("A margem bruta de rendimentos foi de: " + (margemBruta).toFixed(3) + "%.")
+
+//Exercício 06 - aula 5
+
+saldoInicial = 1000.00
+outCalça = 99.90
+monthlyIn = 2500.00
+outRua = 0.10
+saldoAtual = (saldoInicial - outCalça + monthlyIn - outRua)
+outAC = ((saldoAtual*25)/100)
+outBoleto = (saldoAtual - outAC)/2
+saldoFinal = outBoleto
+console.log("Saldo atual de: R$"+saldoFinal +".")
