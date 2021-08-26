@@ -1,0 +1,52 @@
+//Exercício 01 - aula 8
+
+vocais = ["Freddie Mercury", "Dio", "Jim Morrison", "Robert Plant", "Bruce Dickinson"]
+
+for(num = 0; num < vocais.length; num++)
+{
+    console.info(vocais[num])
+}
+
+
+//Exercício 02 - aula 8
+
+valores = ["2", "4", "6", "8", "10"]
+    num = 0
+    
+while (num < valores.length)
+{
+  num += valores[num];
+  num++
+}
+media = num/valores.length
+console.log(media)
+
+//Exercício 03 - aula 8
+
+nomesComuns = ["Miguel", "Laura", "Lucas", "Beatriz", "Guilherme", "Maria", "Gabriel", "Ana", "Arthur", "Júlia", 
+"Enzo", "Alice", "Rafael", "Mariana", "João", "Larissa", "Gustavo", "Maria Eduarda", "Pedro", "Sofia", 
+"Bernardo", "Isabela", "Matheus", "Helena", "Davi", "Camila", "Heitor", "Lara", "Henrique", "Valentina", 
+"Bruno", "Letícia", "Samuel", "Luana", "Felipe", "Amanda", "Lorenzo", "Yasmin", "Benjamin", "Sophia", 
+"Vinícius", "Rebeca", "Rodrigo", "Juliana", "Eduardo", "Bruna", "Diego", "Cecília", "Antônio", "Fernanda", 
+"Leonardo", "Isadora", "Noah", "Lorena", "Nícolas", "Lívia", "Daniel", "Manuela", "Thiago", "Vitória"]
+
+meuNome = "Gabriel"
+nomeComum = false
+
+    for (num = 0; num < nomesComuns.length; num++)
+        {
+            if(meuNome == nomesComuns[num])
+            {
+                nomeComum = true
+                break
+            }
+        }
+
+    if (nomeComum)
+    {
+        console.log("É, nome comum :P")
+    }
+    else
+    {
+        console.log("Diferentão, hein? XD")
+    }
