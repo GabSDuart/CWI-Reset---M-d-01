@@ -1,0 +1,70 @@
+//Exercício 01 - aula 9
+
+function imprimir()
+    {
+        console.log("Vai somente imprimir na tela")
+    }
+imprimir()
+
+//Exercício 02 - aula 9
+
+//Exercício de verificador de mesmo nome proposto na aula 05, utilizando método booleano de verificação
+
+function verificadorNome()
+{
+    nome1 = "Jhon",
+    nome2 = "Jon",
+    mesmoNome = (nome1 == nome2) ? "Têm o mesmo nome" : "Não têm mesmo nome"
+    return (verificadorNome) //adicionar RETURN à função, no lugar do CONSOLE.LOG, impede que a mesma seja impressa na tela
+}
+verificadorNome()
+
+//Exercício de confirmação de maioridade proposto na aula 05, utilizando verificação IF/ELSE de condições
+
+function maioridade()
+{
+    maiorDeIdade = 18
+        if(maiorDeIdade >= 18)
+    {maiorDeIdade = "Adulto"}
+        else
+    {maiorDeIdade = "Menor"}
+return (maioridade)
+}
+maioridade()
+
+//Exercício de cálculo de juros proposto na aula 05
+
+function juros()
+{
+    valorBoleto = 109,90
+    valorJuros = (valorBoleto + valorBoleto * 10/100)
+    return(valorJuros)
+}
+juros()
+
+//Exercício de cálculo de média aritmética proposto na aula 05
+
+function media()
+{
+       var soma = 0
+            for (variavel = 0; variavel < itens.length; variavel++) // argumento do loop
+            {soma += itens[variavel]}
+    return (soma/itens.length)
+}
+itens = ["10", "20", "25", "40", "55"]
+media(itens)
+
+//Exercício de cálculo de margem proposto na aula 05
+
+function margem(receitaLiquida, custoProdutos)
+  
+{
+    lucroBruto = (receitaLiquida - custoProdutos)
+    margemBruta = (lucroBruto / receitaLiquida)*100
+    console.log("Lucro bruto total foi de: R$" + lucroBruto + ".")
+    console.log("A margem bruta de rendimentos foi de: " + (margemBruta).toFixed(3) + "%.")
+    return ((lucroBruto, margemBruta).toFixed(3))
+}
+receitaLiquida = 9000.00
+custoProdutos = 3700.00
+margem(receitaLiquida, custoProdutos)
